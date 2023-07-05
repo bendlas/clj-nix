@@ -33,6 +33,7 @@ let
       inherit name runtimeInputs;
       text = ''
         exec "${jdk}/bin/java" \
+            "-Dclojure.main.report=stderr" \
             "-Dclojure.tools.logging.factory=clojure.tools.logging.impl/slf4j-factory" \
             "-classpath" "${classpath}" clojure.main -m ${clj-main} "$@"
       '';
