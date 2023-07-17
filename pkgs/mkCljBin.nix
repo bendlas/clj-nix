@@ -92,6 +92,7 @@ stdenv.mkDerivation ({
   };
 
   patchPhase =
+    #  set -vx
     ''
       runHook prePatch
     ''
