@@ -54,7 +54,7 @@ stdenv.mkDerivation ({
     ];
 
   passthru = {
-    inherit fullId groupId artifactId;
+    inherit deps-cache fullId groupId artifactId;
   };
 
   patchPhase =
