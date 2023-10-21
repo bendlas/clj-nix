@@ -1,5 +1,4 @@
-{ self
-, stdenv
+{ stdenv
 , python311Packages
 
 , pkgs
