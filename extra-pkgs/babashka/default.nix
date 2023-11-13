@@ -11,7 +11,7 @@
 , writeScriptBin
 }:
 
-{ graalvm ? graalvmCEPackages.graalvm19-ce
+{ graalvm ? graalvmCEPackages.graalvm-ce
 , withFeatures ? [ ]
 , bbLean ? false
 , wrap ? true
