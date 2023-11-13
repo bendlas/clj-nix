@@ -31,7 +31,7 @@ jobs:
         with:
           commit-message: Update clojure dependencies
           title: Update clojure dependencies
-          assignees: jlesquembre
+          assignees: bendlas
           branch: update-clj-deps
           labels: |
             dependencies
