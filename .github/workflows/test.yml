@@ -2,13 +2,6 @@ name: tests
 
 on:
   workflow_dispatch: # allows manual triggering
-  push:
-    paths-ignore:
-      - "**.md"
-      - "docs/**"
-      - ".github/**"
-    branches:
-      - main
   pull_request:
     paths-ignore:
       - "**.md"
